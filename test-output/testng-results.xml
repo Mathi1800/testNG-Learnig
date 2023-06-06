@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-05T06:30:10 IST" name="Default suite" finished-at="2023-06-05T06:30:10 IST" duration-ms="231">
+  <suite started-at="2023-06-06T05:30:49 IST" name="Default suite" finished-at="2023-06-06T05:31:23 IST" duration-ms="33887">
     <groups>
     </groups>
-    <test started-at="2023-06-05T06:30:10 IST" name="Default test" finished-at="2023-06-05T06:30:10 IST" duration-ms="231">
-      <class name="testNG.priorityTestCase">
-        <test-method signature="startThecar()[pri:0, instance:testNG.priorityTestCase@56de5251]" started-at="2023-06-05T06:30:10 IST" name="startThecar" finished-at="2023-06-05T06:30:10 IST" duration-ms="32" status="PASS">
+    <test started-at="2023-06-06T05:30:49 IST" name="Default test" finished-at="2023-06-06T05:31:23 IST" duration-ms="33887">
+      <class name="testNG.SuiteExample">
+        <test-method is-config="true" signature="lauchBrowse()[pri:0, instance:testNG.SuiteExample@1d119efb]" started-at="2023-06-06T05:30:27 IST" name="lauchBrowse" finished-at="2023-06-06T05:30:49 IST" duration-ms="22291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startThecar -->
-        <test-method signature="putFirstGear()[pri:1, instance:testNG.priorityTestCase@56de5251]" started-at="2023-06-05T06:30:10 IST" name="putFirstGear" finished-at="2023-06-05T06:30:10 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- lauchBrowse -->
+        <test-method signature="bing()[pri:0, instance:testNG.SuiteExample@1d119efb]" started-at="2023-06-06T05:30:49 IST" name="bing" finished-at="2023-06-06T05:30:51 IST" duration-ms="2187" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putFirstGear -->
-        <test-method signature="putSecondGear()[pri:2, instance:testNG.priorityTestCase@56de5251]" started-at="2023-06-05T06:30:10 IST" name="putSecondGear" finished-at="2023-06-05T06:30:10 IST" duration-ms="17" status="PASS">
+        </test-method> <!-- bing -->
+        <test-method signature="google()[pri:0, instance:testNG.SuiteExample@1d119efb]" started-at="2023-06-06T05:30:51 IST" name="google" finished-at="2023-06-06T05:30:59 IST" duration-ms="7893" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putSecondGear -->
-        <test-method signature="putThirdGear()[pri:3, instance:testNG.priorityTestCase@56de5251]" started-at="2023-06-05T06:30:10 IST" name="putThirdGear" finished-at="2023-06-05T06:30:10 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- google -->
+        <test-method signature="yahoo()[pri:0, instance:testNG.SuiteExample@1d119efb]" started-at="2023-06-06T05:30:59 IST" name="yahoo" finished-at="2023-06-06T05:31:23 IST" duration-ms="23621" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putThirdGear -->
-        <test-method signature="putFourGear()[pri:4, instance:testNG.priorityTestCase@56de5251]" started-at="2023-06-05T06:30:10 IST" name="putFourGear" finished-at="2023-06-05T06:30:10 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- yahoo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNG.SuiteExample@1d119efb]" started-at="2023-06-06T05:31:29 IST" name="closeBrowser" finished-at="2023-06-06T05:31:39 IST" duration-ms="10043" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putFourGear -->
-      </class> <!-- testNG.priorityTestCase -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNG.SuiteExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
