@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-06T06:12:50 IST" name="Suite" finished-at="2023-06-06T06:12:50 IST" duration-ms="109">
+  <suite started-at="2023-06-06T06:33:02 IST" name="Suite" finished-at="2023-06-06T06:33:42 IST" duration-ms="39662">
     <groups>
     </groups>
-    <test started-at="2023-06-06T06:12:50 IST" name="Test" finished-at="2023-06-06T06:12:50 IST" duration-ms="109">
-      <class name="testNG.ParameterizationExample">
-        <test-method signature="printName(java.lang.String)[pri:0, instance:testNG.ParameterizationExample@769e7ee8]" started-at="2023-06-06T06:12:50 IST" name="printName" finished-at="2023-06-06T06:12:50 IST" duration-ms="22" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mathi]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-06-06T06:33:02 IST" name="Test" finished-at="2023-06-06T06:33:42 IST" duration-ms="39662">
+      <class name="testNG.Parallel">
+        <test-method signature="openChrome()[pri:0, instance:testNG.Parallel@419c5f1a]" started-at="2023-06-06T06:33:02 IST" name="openChrome" finished-at="2023-06-06T06:33:42 IST" duration-ms="39531" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printName -->
-      </class> <!-- testNG.ParameterizationExample -->
+        </test-method> <!-- openChrome -->
+        <test-method signature="openBing()[pri:0, instance:testNG.Parallel@419c5f1a]" started-at="2023-06-06T06:33:02 IST" name="openBing" finished-at="2023-06-06T06:33:37 IST" duration-ms="35080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBing -->
+      </class> <!-- testNG.Parallel -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
